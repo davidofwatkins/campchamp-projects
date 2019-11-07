@@ -1,0 +1,165 @@
+#location-chooser {
+    width: 100%;
+    height: 200px;
+    border: 1px solid darkgray;
+}
+
+.leftright {
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+.leftright#leftsettings {
+    width: 340px;
+}
+.leftright#rightsettings {
+    width: 420px;
+}
+
+.info-box {
+    width: 850px;
+    z-index: 1;
+    border-top: 3px solid #696969;
+    margin-top: 5px;
+}
+
+.info-box h2.label {
+    margin: 20px 0 4px;
+    font-size: 18px;
+}
+
+#dormname {
+    width: 315px;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+#description {
+    width: 97%;
+    padding: 1.5%;
+    min-height: 300px;
+    font-size: 14px;
+}
+
+p#arrangement-wrapper {
+    font-size: 15px;
+}
+
+p#arrangement-wrapper select {
+    font-size: 15px;
+}
+
+input#foursquareid {
+    width: 110px;
+}
+
+p.description {
+    font-style: italic;
+}
+
+/* Image "Page" */
+.frame img {
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+#gallery {
+    margin-top: 50px;
+}
+
+#gallery img {
+    width: 300px;
+    display: block;
+    box-shadow: 0 0 10px black;
+    margin: 20px auto;
+}
+
+/* Floorplan "Page" */
+.page#rooms img {
+    display: block;
+    margin: 10px auto;
+}
+
+.floornumber {
+    width: 50px;
+}
+
+/* Tabs */
+#tabnav {
+    margin-top: 20px;
+    margin-left: -560px;
+    z-index: -1;
+    text-align: center;
+}
+
+#tabnav .tab {
+    background: #696969;
+    color: white;
+    padding: 7px 15px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    text-decoration: none;
+    box-shadow: 0 0 1px black;
+}
+
+#tabnav .tab:hover {
+    background: #555;
+}
+
+.page {
+    position: relative;
+}
+
+.page#images, .page#rooms {
+    display: none;
+    text-align: center;
+}
+
+#submit {
+    display: block;
+    margin: 20px auto;
+}
+
+.popup {
+    width: 250px;
+    //text-align: center;
+}
+
+.popup table {
+    margin: auto;
+}
+
+.popup table td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+.popup table td:last-child {
+    text-align: left;
+}
+
+.popup input {
+    width: 50px;
+    display: inline;
+    padding: 2px 0 2px 2px;
+}
+
+.popup .button {
+    display: block;
+    padding: 5px;
+    margin: 15px auto 0;
+    width: 70px;
+    text-align: center;
+}
+
+.button.switchmodes {
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.floorplan-container {
+    position: relative;
+}
+
+.floorplan-container img {
+    max-width: 100%;
+}

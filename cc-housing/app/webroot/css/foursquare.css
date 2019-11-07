@@ -1,0 +1,62 @@
+.info-module#foursquare {
+    text-align: left;
+}
+
+.info-module#foursquare a {
+    color: inherit;
+    text-decoration: inherit;
+}
+    
+.info-module#foursquare .inner-wrapper {
+    border-radius: 3px;
+    border: 1px solid #CCC;
+}
+
+.info-module#foursquare ul p {
+    margin: 0;
+    font-size: 11px;
+}
+.info-module#foursquare ul p.tip-author {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+
+.info-module#foursquare ul img.fq-profilepic {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.info-module#foursquare ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.info-module#foursquare ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.info-module#foursquare ul li:nth-child(odd) {
+    background: #D8D8D8;
+}
+.info-module#foursquare ul li:nth-child(even) {
+    background: #C3C8CC;
+}
+
+div.fq-user-pic-wrapper {
+    float: left;
+    padding: 5px;
+}
+
+div.fq-user-pic-wrapper img {
+    border-radius: 4px;
+}
+
+div.fq-data {
+    position: relative;
+    overflow: hidden;
+    padding: 4px;
+}

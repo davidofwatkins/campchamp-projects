@@ -1,0 +1,127 @@
+/* 
+    Document   : browser
+    Created on : Feb 27, 2013, 1:27:39 AM
+    Author     : David Watkins
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body, html {
+    height: 100%;
+}
+
+#campchamplinks a {
+    color: #888;
+}
+#campchamplinks a:hover {
+    color: #B6B6B6;
+}
+
+#campchamplinks h1 {
+    color: white;
+}
+
+#dormlist-container {
+    width: 15%;
+    min-width: 200px;
+    background: lightgray;
+    height: 100%;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0 0 25px black;
+    left: 0;
+}
+
+#details {
+    background: #444;
+    color: white;
+    //float: left; /* Brilliant solution to filling the width of the body: http://stackoverflow.com/a/10097172/477632 */
+    //width: 85%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /* background from: http://subtlepatterns.com/low-contrast-linen/ */
+    background: url("../img/low_contrast_linen_@2X.png");
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0 0 18px black;
+    left: 0;
+}
+
+input#dormsearch {
+    font-size: 14px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 4px 4%;
+    padding-right: 13%;
+    outline: none;
+    background: white;
+    color: black;
+    border: 0;
+    border-radius: 0;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    border: 2px solid transparent;
+}
+input#dormsearch:focus {
+    border: 2px solid #4444B6;
+}
+
+#searchicon {
+    width: 18px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -33px;
+    position: relative;
+    z-index: 5;
+}
+
+#dormlist {
+    margin: 0;
+    padding: 0;
+}
+
+#dormlist li {
+    padding: 13px;
+    list-style: none;
+    list-style-position: outside;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* #dormlist li:nth-child(odd) { background: blue; } */
+#dormlist a:nth-child(even) li { background: #C0C0C0; }
+#dormlist a li:hover {
+    background-color: #696969;
+}
+
+#dormlist a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#dormlist li.active {
+    /*background: #080872 !important;
+    color: white;
+    box-shadow: inset 0 0 5px black;*/
+    
+    background: #8F8F8F;
+    box-shadow: inset 0 0 5px #5C5C5C;
+    border-left: 5px solid #0000CA;
+}
+
+#titlebar {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#titlebar #expand-dormlist-button {
+    width: 30px;
+    height: 30px;
+    float: left;
+    display: none;
+}

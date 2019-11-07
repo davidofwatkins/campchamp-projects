@@ -1,0 +1,47 @@
+/* 
+    Document   : login
+    Created on : Feb 27, 2013, 12:33:21 AM
+    Author     : David
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    text-align: center;
+}
+
+#biglogo {
+    width: 350px;
+    margin: 50px auto 30px;
+    display: block;
+}
+
+#maintitle {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+#subtitle {
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#welcometext {
+    font-size: 16px;
+}
+
+form#login {
+    margin: auto;
+    padding: 10px;
+    
+}
+
+form#login .inputlabel {
+    font-size: 20px;
+    color: gray;
+    margin-left: 3px;
+}
+
+form#login #username {
+    margin-left: 218px;
+}

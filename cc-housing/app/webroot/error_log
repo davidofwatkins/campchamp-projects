@@ -1,0 +1,74 @@
+[02-Apr-2013 16:53:41] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/browser.ctp on line 35
+[02-Apr-2013 16:53:55] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/browser.ctp on line 35
+[02-Apr-2013 16:53:58] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/browser.ctp on line 35
+[02-Apr-2013 16:54:13] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/browser.ctp on line 35
+[02-Apr-2013 16:54:15] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/browser.ctp on line 35
+[04-Apr-2013 13:19:38] PHP Fatal error:  Call to a member function init() on a non-object in /home2/davidofw/public_html/dev/cchousing/lib/Cake/Controller/Controller.php on line 635
+[04-Apr-2013 13:23:28] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 15
+[07-Apr-2013 17:36:31] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 9
+[07-Apr-2013 17:37:05] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 9
+[07-Apr-2013 17:37:30] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 9
+[07-Apr-2013 17:44:18] PHP Fatal error:  Call to undefined function  set() in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 25
+[07-Apr-2013 17:44:23] PHP Fatal error:  Call to undefined function  set() in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 25
+[07-Apr-2013 18:28:04] PHP Fatal error:  Cannot use string offset as an array in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/resbrowser.ctp on line 21
+[07-Apr-2013 18:28:05] PHP Fatal error:  Cannot use string offset as an array in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/resbrowser.ctp on line 21
+[08-Apr-2013 15:05:43] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 53
+[08-Apr-2013 16:18:22] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home2/davidofw/public_html/dev/cchousing/app/View/Halls/view.ctp on line 114
+[09-Apr-2013 14:08:28] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 21
+[09-Apr-2013 14:09:24] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 21
+[09-Apr-2013 14:10:29] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 21
+[09-Apr-2013 14:14:39] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 24
+[09-Apr-2013 17:22:43] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 35
+[11-Apr-2013 13:47:07] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 19
+[13-Apr-2013 19:32:21] PHP Fatal error:  Call to undefined method AdminController::Hall() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 37
+[13-Apr-2013 19:34:15] PHP Fatal error:  Call to undefined method AdminController::Hall() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 38
+[13-Apr-2013 19:34:41] PHP Fatal error:  Call to undefined method AdminController::Hall() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 38
+[13-Apr-2013 19:35:47] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 36
+[13-Apr-2013 19:39:44] PHP Fatal error:  Call to undefined method AdminController::Hall() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 38
+[13-Apr-2013 19:40:50] PHP Fatal error:  Call to undefined method AdminController::Hall() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 39
+[13-Apr-2013 19:41:37] PHP Fatal error:  Call to undefined function  find() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 39
+[13-Apr-2013 19:41:48] PHP Parse error:  syntax error, unexpected ')' in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 41
+[13-Apr-2013 19:42:25] PHP Fatal error:  Call to undefined function  dump() in /home2/davidofw/public_html/dev/cchousing/app/View/Admin/edit.ctp on line 19
+[13-Apr-2013 19:42:55] PHP Fatal error:  Call to undefined function  dump() in /home2/davidofw/public_html/dev/cchousing/app/View/Admin/edit.ctp on line 19
+[14-Apr-2013 00:46:08] PHP Parse error:  syntax error, unexpected '}' in /home2/davidofw/public_html/dev/cchousing/app/View/Admin/edit.ctp on line 114
+[15-Apr-2013 16:58:18] PHP Fatal error:  Cannot use object of type stdClass as array in /home2/davidofw/public_html/dev/cchousing/app/View/Admin/submitres.ctp on line 17
+[15-Apr-2013 20:36:39] PHP Fatal error:  Call to undefined function  dump() in /home2/davidofw/public_html/dev/cchousing/app/View/Admin/submitres.ctp on line 37
+[15-Apr-2013 21:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 63
+[17-Apr-2013 11:57:46] PHP Fatal error:  Call to undefined method AdminController::element() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 138
+[17-Apr-2013 11:59:01] PHP Fatal error:  Call to undefined method AdminController::showLog() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 138
+[17-Apr-2013 12:01:38] PHP Fatal error:  Call to undefined function  getlastquery() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 138
+[17-Apr-2013 12:02:10] PHP Fatal error:  Call to undefined method AdminController::getDatasource() in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 184
+[17-Apr-2013 12:10:33] PHP Fatal error:  Call to a member function getDataSource() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 139
+[17-Apr-2013 12:10:38] PHP Fatal error:  Call to a member function getDataSource() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AdminController.php on line 139
+[17-Apr-2013 21:37:21] PHP Fatal error:  Call to undefined method View::redirect() in /home2/davidofw/public_html/dev/cchousing/app/View/Pages/home.ctp on line 3
+[17-Apr-2013 23:25:50] PHP Fatal error:  Class 'Security' not found in /home2/davidofw/public_html/dev/cchousing/app/Controller/LoginController.php on line 16
+[17-Apr-2013 23:26:25] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM, expecting ',' or ';' in /home2/davidofw/public_html/dev/cchousing/app/Controller/LoginController.php on line 16
+[17-Apr-2013 23:28:55] PHP Fatal error:  Call to a member function hash() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/LoginController.php on line 16
+[17-Apr-2013 23:33:52] PHP Fatal error:  Class 'Security' not found in /home2/davidofw/public_html/dev/cchousing/app/Controller/LoginController.php on line 16
+[17-Apr-2013 23:36:09] PHP Fatal error:  Class 'Security' not found in /home2/davidofw/public_html/dev/cchousing/app/Controller/LoginController.php on line 16
+[18-Apr-2013 00:05:57] PHP Fatal error:  Call to a member function allow() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/AppController.php on line 46
+[18-Apr-2013 00:06:14] PHP Fatal error:  Class 'Security' not found in /home2/davidofw/public_html/dev/cchousing/app/Controller/LoginController.php on line 16
+[18-Apr-2013 00:47:50] PHP Fatal error:  Cannot redeclare UsersController::beforeFilter() in /home2/davidofw/public_html/dev/cchousing/app/Controller/UsersController.php on line 28
+[18-Apr-2013 01:15:56] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Users/login.ctp on line 28
+[18-Apr-2013 01:36:23] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '{' or '$' in /home2/davidofw/public_html/dev/cchousing/app/Controller/UsersController.php on line 22
+[18-Apr-2013 02:12:07] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[18-Apr-2013 02:58:38] PHP Fatal error:  Call to undefined method View::redirect() in /home2/davidofw/public_html/dev/cchousing/app/View/Admin/submitres.ctp on line 3
+[18-Apr-2013 21:37:48] PHP Fatal error:  Call to undefined method View::loadModel() in /home2/davidofw/public_html/dev/cchousing/app/View/Halls/view.ctp on line 11
+[20-Apr-2013 13:52:57] PHP Fatal error:  Call to undefined function  isadmin() in /home2/davidofw/public_html/dev/cchousing/app/Controller/UsersController.php on line 31
+[20-Apr-2013 22:51:48] PHP Fatal error:  Call to undefined function  getcurrentuser() in /home2/davidofw/public_html/dev/cchousing/app/Controller/UsersController.php on line 55
+[20-Apr-2013 23:37:33] PHP Fatal error:  Call to undefined method DateTime::diff() in /home2/davidofw/public_html/dev/cchousing/app/Controller/UsersController.php on line 59
+[21-Apr-2013 01:18:41] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/HallsController.php on line 46
+[21-Apr-2013 01:21:52] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[21-Apr-2013 14:58:46] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[21-Apr-2013 14:58:46] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[21-Apr-2013 16:38:16] PHP Fatal error:  Call to undefined method View::elements() in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/resbrowser.ctp on line 59
+[21-Apr-2013 16:38:17] PHP Fatal error:  Call to undefined method View::elements() in /home2/davidofw/public_html/dev/cchousing/app/View/Layouts/resbrowser.ctp on line 59
+[21-Apr-2013 16:41:42] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[21-Apr-2013 16:41:44] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[21-Apr-2013 16:52:24] PHP Fatal error:  Call to undefined function  isadmin() in /home2/davidofw/public_html/dev/cchousing/app/View/Elements/titlebar.ctp on line 10
+[21-Apr-2013 16:52:24] PHP Fatal error:  Call to undefined function  isadmin() in /home2/davidofw/public_html/dev/cchousing/app/View/Elements/titlebar.ctp on line 10
+[21-Apr-2013 16:53:44] PHP Fatal error:  Call to undefined function  isadmin() in /home2/davidofw/public_html/dev/cchousing/app/View/Elements/titlebar.ctp on line 10
+[21-Apr-2013 16:53:45] PHP Fatal error:  Call to undefined function  isadmin() in /home2/davidofw/public_html/dev/cchousing/app/View/Elements/titlebar.ctp on line 10
+[22-Apr-2013 00:54:42] PHP Fatal error:  Call to a member function find() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/Controller/UsersController.php on line 101
+[31-Aug-2013 14:51:11] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
+[15-Oct-2013 18:22:58] PHP Fatal error:  Call to a member function create() on a non-object in /home2/davidofw/public_html/dev/cchousing/app/View/Login/index.ctp on line 28
