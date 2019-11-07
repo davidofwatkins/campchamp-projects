@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hello Jquery</title>
+</head>
+<style>
+	div#testbox {
+		margin: 20px auto;
+		width: 20px;
+		height: 20px;
+		background: #B9F7B0;
+		border: 1px solid #060;
+		border-radius: 5px;
+	}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script>
+	$(document).ready(function() { //Wait for the DOM to be ready
+			
+		$("#showpicturebutton").click(function() {
+			$("img").fadeIn("slow");
+			$("#showpicturebutton").remove();
+		});
+		
+		$("#resizepic").click(function() {
+			if ($("div#testbox").width() <= 200) {
+				$("div#testbox").animate( { width: 400, height: 400 }, "fast");
+			}
+			else {
+				$("div#testbox").animate( { width: 200, height: 200 }, "fast");
+			}
+		});
+		
+	});
+	
+</script>
+<body>
+	<p id="hide">Hello World!</p>
+    <p>(<a href="#" onclick="$('p#hide').toggle('fast');">Show/Hide</a>)</p>
+    <img src="http://davidofwatkins.com/largedwat.jpg" style="display: none;" />
+    <p id="showpicturebutton">(<a href="#">Show Picture</a>)</p>
+    <div id="testbox"></div>
+    <p><a id="resizepic" href="#">Click here to resize</a></p>
+</body>
+</html>

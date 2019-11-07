@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Offerings | Champlain College</title>
+    <link href="style-v2.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Salsa' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+	<div id="header">
+    	<a href="v2.html"><img src="logo-v2.png" /></a>
+        <div id="champlainnav">
+        	<a href="index.html">View other Design</a>
+        	<a href="http://champlain.edu" target="_blank">Champlain.edu</a>
+        	<a href="http://my.champlain.edu" target="_blank">My Champlain</a>
+            <a href="https://my.champlain.edu/angel/launch" target="_blank">Angel</a>
+            <a href="https://webmail.champlain.edu" target="_blank">Webmail</a>
+            <a href="https://my.champlain.edu/widget_chalkandwire2" target="_blank">ePortfolio</a>
+            <a href="http://cosmos.champlain.edu/library/" target="_blank">Library</a>
+            <a href="#">Help</a>
+        </div>
+	</div>
+    <div style="clear: both;"></div>
+    <div id="content">
+        <div id="leftcol">	
+            <div id="searcharea">
+                <input type="text" id="search" placeholder="Search" />
+            </div>
+            <p id="showoptionsbutton"><a href="#" id="showoptions">Show Options</a></p>
+            <div id="options">
+            	<div id="aboutoptions">Use the options below to configure the list of subjects below and/or the results that appear on the right. <b>Note: the functionality for these options has not been implemented into this demo.</b></div>
+            	<table>
+                	<tr><td align="left"><input type="checkbox" id="showcps" name="showcps" /> <label for="showcps">Hide CPS</label></td><td align="right">Only show class level: <select><option>100</option><option>200</option><option>300</option><option>400</option></select></td></tr>
+                </table>
+                <input id="closeoptions" type="submit" value="Close" />
+            </div>
+            <div id="subjectlist">
+            	<div class="sbjlisting">All Subjects</div>
+            	<div class="sbjlisting">Accounting (ACC)</div>
+                <div class="sbjlisting">Accounting - CPS (ACCT)</div>
+                <div class="sbjlisting">Art (ART)</div>
+                <div class="sbjlisting">Art - CPS (ARTS)</div>
+                <div class="sbjlisting">Business (BUS)</div>
+                <div class="sbjlisting">Business &amp; Management (MGMT)</div>
+                <div class="sbjlisting">Business &amp; Management - CPS (MGMT)</div>
+                <div class="sbjlisting">Business Law (BLW)</div>
+                <div class="sbjlisting">College Capstone (CCC)</div>
+                <div class="sbjlisting">Communication (COM)</div>
+                <div class="sbjlisting">Communication - CPS (COMM)</div>
+                <div class="sbjlisting">Computer &amp Digital Forensics - CPS (CFDI)</div>
+                <div class="sbjlisting">Computer &amp Information Technology - CPS (CMIT)</div>
+                <div class="sbjlisting">Computer Applications - CPS (CAPS)</div>
+                <div class="sbjlisting">Computer Networking - CPS (NETW)</div>
+                <div class="sbjlisting">Computer &amp Digital Forensics (FOR)</div>
+                <div class="sbjlisting">Computer &amp Information Technology (CIT)</div>
+                <div class="sbjlisting">Computer Networking (NET)</div>
+                <div class="sbjlisting">Computer Science &amp Innovation (CSI)</div>
+                <div class="sbjlisting">Computing (CIS)</div>
+                <div class="sbjlisting">Core (COR)</div>
+                <div class="sbjlisting">Creative Media (CRE)</div>
+                <div class="sbjlisting">Criminal Justice (CRJ)</div>
+                <div class="sbjlisting">Criminal Justice - CPS (CRIM)</div>
+                <div class="sbjlisting">Digital Forensic Science (DFS)</div>
+                <div class="sbjlisting">Digital Filmmaking (DFM)</div>
+                <div class="sbjlisting">Digital Investigation Management (DIM)</div>
+                <div class="sbjlisting">Economics (ECN)</div>
+                <div class="sbjlisting">Economics - CPS (ECON)</div>
+            </div>
+        </div>
+        <div id="subheader">
+        	<h1 id="chooseclassdialog">Choose a class below to read more:</h1>
+        	<a href="#" ><div id="viewquicklist">View Quick List</div></a>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="rightback">
+        	<h1 id="selectsbjdialog">Select a subject to the left to display classes.</h1>
+            <div id="classlist">
+            	<h1 id="sbjname"></h1>
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                <div class="classlisting">
+                	<div class="classlistingtitle">
+                    	<div class="classlistingname">CLASS-310-02 Example Class</div>
+                        <img class="expandcollapse" src="plus.png" />
+                        <div class="classlistingprof">John Doe</div>
+                        
+                        <div style="clear: both;"></div>
+                    </div>
+                	<div class="classdescription">
+                    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <table>
+                        	<tr><td><b>Schedule:</b> Mon, Wed - 2:00 - 3:15 (Spring, 2012)</td><td><b>Prerequisites:</b> CLS-210-15, WEB-320-02</td></tr>
+                            <tr><td><b>Location:</b> Joyce 201</td><td><b>Seats Remaining:</b> 7</td></tr>
+                        </table>
+                        <div class="descriptionlinks">
+                        	<a href="#">Information About Professor</a> <a href="#">Email Advisor</a> <a href="#">Add to Quick List</a>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                
+                
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+</body>
+</html>

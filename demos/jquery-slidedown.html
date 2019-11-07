@@ -1,0 +1,60 @@
+<!-- Better to link the URL below to a file on your same website: -->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+<script>
+	
+function expandDiv(idToToggle, textIdToChange) {
+	
+	div = $("#" + idToToggle);
+	txt = $("#" + textIdToChange);
+	
+	var MINIMIZED_SIZE = 40;
+	
+	//If the div is bigger than 100, shrink it to 100...
+	if (div.height() > MINIMIZED_SIZE) {
+		div.animate({ height : MINIMIZED_SIZE });
+		div.css("overflow", "hidden");
+		txt.html("Read more...");
+	}
+	else {
+		
+		//record current height
+		var originalHeight = div.height();
+		
+		//temporarily change height without animation
+		div.css("height", "auto");
+		
+		//save the new height
+		var newHeight = div.height();
+		
+		//revert to old height without animation
+		div.css("height", originalHeight);
+		
+		//animate!
+		div.animate({ height : newHeight });
+		txt.html("Read less...");
+	}
+	
+}
+	
+</script>
+
+<h1>The "Read More" Demo:</h1>
+
+<h2>Demo #1</h2>
+
+<div id="textbox" style="width: 500px; height: 40px; overflow: hidden;">
+	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Grant is weird Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+</div>
+<a id="readmore" href="javascript:expandDiv('textbox', 'readmore');">Read more...</a>
+
+<h2>Demo #2</h2>
+
+<div id="textbox2" style="width: 500px; height: 40px; overflow: hidden;">
+	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+	Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+</div>
+<a id="readmore2" href="javascript:expandDiv('textbox2', 'readmore2');">Read more...</a>

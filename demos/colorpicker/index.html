@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Color Picker Demo</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.miniColors.js"></script>
+<link type="text/css" rel="stylesheet" href="jquery.miniColors.css" />
+
+<style>
+	body {
+		text-align: center;
+		font-family: arial, sans-serif;
+		font-size: 13px;
+	}
+	
+	#container {
+		width: 500px;
+		margin: auto;
+		position: relative;
+	}
+	
+	/* Modify plugin default styling */
+	.miniColors-trigger {
+		width: 70px !important;
+		height: 70px !important;
+		background-image: none !important;
+		border: 1px solid gray;
+		border-radius: 5px;
+		box-shadow: inset 0 0 5px black;
+	}
+	
+	.miniColors-selector:before {
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 0;
+		left: -14px;
+		top: 35%;
+		border: 7px solid;
+		border-color: transparent white transparent transparent;
+		z-index: 10;
+	}
+	.miniColors-selector:after {
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 0;
+		left: -15px;
+		top: 35%;
+		border: 7px solid;
+		border-color: transparent #BBB transparent transparent;
+		z-index: 5;
+	}
+	
+	
+</style>
+
+<script>
+
+$(document).ready(function() {
+	
+	/*$("#colortext").miniColors({
+		letterCase: "uppercase",
+		change: function(hex, rgb) {
+			//Update localStorage or whatever
+			console.log("Color updated to " + hex);
+		}
+	});
+	
+	$("#colortext").miniColors("value", "#000000");*/
+	
+	//Use the following code to loop through multiple color selectors
+	$(".colorselection").each(function() {
+		
+		var localStorageKey = $(this).parent().attr("id");
+		
+		$(this).miniColors({
+			change: function(hex, rgb) {
+				console.log("localStorage[" + localStorageKey + "] will be updated to " + hex);
+			}
+		});
+		
+		$(this).miniColors("value", "#000000");
+	});
+	
+});
+
+</script>
+
+</head>
+
+<body>
+	<h1>Color Picker Demo</h1>
+    <p>Click the square below to change its color:</p>
+    <div id="container">
+    	<input type="hidden" id="colortext" class="colorselection" />
+    </div>
+    <p>The demo uses a slightly modified version of Claviska's jQuery MiniColors plugin, originally available <a href="https://github.com/claviska/jquery-miniColors/">here</a></p>
+    <!--<div id="color"></div>-->
+</body>
+</html>

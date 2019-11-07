@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lightbox (JQuery)</title>
+<script src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+<script>
+	function showLightbox(width, height, mode, content) {
+		
+		//Create the overlay
+		var overlay = document.createElement("div");
+		overlay.id = "overlay";
+		
+		//Style the overlay
+		overlay.style.background = "#000";
+		overlay.style.width = "100%";
+		overlay.style.height = "100%";
+		overlay.style.position = "fixed";
+		overlay.style.top = "0%";
+		overlay.style.left = "0%";
+		overlay.style.opacity = "0.7";
+		overlay.style.filter = "alpha(opacity = 70)";
+		overlay.style.display = "none";
+		
+		//Create the lightbox
+		var lightbox = document.createElement("div");
+		lightbox.id = "lightbox";
+		
+		//Style the lightbox
+		lightbox.style.position = "fixed";
+		lightbox.style.top = "50%";
+		lightbox.style.left = "50%";
+		lightbox.style.width = "0px";
+		lightbox.style.height = "0px";
+		lightbox.style.marginLeft = "-0px"; //Negative of half of the width
+		lightbox.style.marginTop = "-0px"; //Negative of half of the height
+		lightbox.style.background = "#FFF";
+		lightbox.style.boxShadow = "0 0 20px #333";
+		lightbox.style.display = "none";
+		
+		//Fill the lightbox with content
+		//lightbox.style.padding = "10px";
+		if (mode == "iframe") {
+			lightbox.style.background = "#000";
+			lightbox.innerHTML = '<iframe src="' + content + '" width="' + width + '" height="' + height + '" frameborder="0"/>';
+		}
+		
+		/***Create Overlay Tags***/
+		document.body.appendChild(overlay);
+		$("#overlay").fadeIn("fast");
+		
+		document.body.appendChild(lightbox);
+		$("#lightbox").fadeIn("fast");
+		var newCssProperties = {};
+		newCssProperties["width"] = width;
+		newCssProperties["height"] = height;
+		newCssProperties["marginLeft"] = "-" + (width / 2) + "px";
+		newCssProperties["marginTop"] = "-" + (height / 2) + "px";
+		$("#lightbox").animate(newCssProperties, "fast"); 
+		
+			
+		//Set up: when clicked, hide lightbox
+		//overlay.setAttribute("onClick", "hideLightbox()");
+		$("#overlay").click(function() {
+			$("#overlay").fadeOut("fast", function() {
+				$("#overlay").remove();
+			});
+			$("#lightbox").fadeOut("fast", function() {
+				$("#lightbox").remove();
+			});
+			//removeLightbox();
+		});
+	}
+	
+function removeLightbox() {
+	//Must use removeChild() instead of style.display to prevent iframe videos from continuing
+	document.body.removeChild(document.getElementById("lightbox"));
+	document.body.removeChild(document.getElementById("overlay"));
+}
+</script>
+</head>
+
+<body>
+	<h1>Welcome</h1>
+    <p><a href="javascript:showLightbox(853, 510, 'iframe', 'http://www.youtube.com/embed/YGth7aSd0EM?autoplay=1')">Click here</a> to make the lightbox!</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+    <p>This is a test page.</p>
+</body>
+</html>

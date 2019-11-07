@@ -1,0 +1,190 @@
+* { margin: 0; padding: 0; }
+img { border: none; }
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+	background: #F6EBC2;
+}
+a {
+	color: #06F;
+}
+#header {
+	padding: 5px 15px;
+	background: white;
+	box-shadow: 0 0 20px black;
+	min-width: 955px;
+}
+	#header img {
+		height: 30px;
+	}
+	#header #champlainnav {
+		float: right;
+		text-align: right;
+	}
+		#champlainnav a {
+			margin: auto 3px;
+		}
+		
+#content {
+	margin: 30px 15px 20px 25px;
+}
+	#content #leftcol {
+		padding: 10px;
+		width: 350px;
+		float: left;
+	}
+		#leftcol #searcharea {
+		}
+			#searcharea input {
+				width: 99%;
+				display: block;
+				margin: auto;
+				font-size: 18px;
+			}
+			#leftcol #options {
+				padding: 10px;
+				margin-bottom: 10px;
+				background: #999;
+				display: none;
+			}
+				#options #aboutoptions {
+					background: #CCC;
+					text-align: center;
+					padding: 5px;
+				}
+				#options table {
+					width: 100%;
+				}
+					#options table td {
+						padding: 5px;
+					}
+				#options input[type=submit] {
+					padding: 3px 10px;
+					display: block;
+					width: 60px;
+					margin: 10px auto 0 auto;
+				}
+		#leftcol #showoptionsbutton {
+			text-align: right;
+			font-weight: bold;
+			margin: 5px 2px 2px 0;
+			font-size: 11px;
+		}
+			#showoptionsbutton a {
+				color: black;
+				text-decoration: none;
+			}
+		#leftcol #subjectlist {
+			background: white;
+			width: 100%;
+			height: 770px;
+			border: 1px solid #CCC; /*#F0DE97*/;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+			#subjectlist .sbjlisting {
+				padding: 7px 10px;
+				cursor: pointer;
+				background-image: url("arrow-right.png");
+				background-repeat: no-repeat;
+				background-position: right;
+			}
+			#subjectlist .sbjlisting[state=active] {
+				background-color: #C9DCFC;
+				font-weight: bold;
+			}
+			#subjectlist .sbjlisting:hover {
+				background-color: #C9DCFC;
+			}
+	#content #subheader {
+		height: 60px;
+		padding: 0 10px;
+		margin: 0 30px 0 400px;
+		text-align: right;
+		min-width: 604px;
+	}
+		#subheader h1#chooseclassdialog {
+			font-family: "Salsa", Arial, Helvetica, sans-serif;
+			font-size: 30px;
+			font-weight: normal;
+			float: left;
+			line-height: 60px;
+			display: none;
+		}
+		#subheader #viewquicklist {
+			background: #069;
+			color: white;
+			font-weight: bold;
+			width: 110px;
+			text-align: center;
+			padding: 5px;
+			border: 1px solid black;
+			float: right;
+		}
+	#content #rightback {
+		margin: auto 30px 0px 400px;
+		padding: 10 20px 20px 20px;
+		height: 500px;
+		border: 1px solid #F6EBC2;
+	}
+			#rightback h1#selectsbjdialog {
+				text-align: center;
+				font-weight: normal;
+				font-size: 40px;
+				font-family: "Marck Script", Arial, Helvetica, sans-serif;
+			}
+#classlist {
+	position: absolute;
+	box-shadow: 0 0 10px #666;
+	background: white;
+	overflow-y: scroll;
+	display: none;
+	min-width: 456px;
+	/* Rest of the formatting will be configured dynamically through javascript */
+}
+	#classlist h1#sbjname {
+		font-weight: normal;
+		background: #CCC;
+		padding: 10px 20px;
+	}
+	#classlist .classlisting {
+		border-bottom: 1px solid black;
+	}
+		.classlisting .classlistingtitle {
+			cursor: pointer;
+			padding: 7px 20px;
+		}
+		.classlisting .classlistingtitle:hover {
+			background: #D8D7E8;
+		}
+			.classlistingtitle .classlistingname {
+				float: left;
+				font-weight: bold;
+			}
+			.classlistingtitle .classlistingprof {
+				float: right;
+				font-weight: bold;
+				color: #666;
+			}
+			.classlistingtitle .expandcollapse {
+				float: right;
+				margin-left: 10px;
+			}
+		.classlisting .classdescription {
+			margin: 25px;
+			display: none;
+		}
+			.classdescription table {
+				margin: 10px 10px 0px 10px;
+			}
+				.classdescription table td {
+					padding: 5px 20px;
+				}
+			.classdescription .descriptionlinks {
+				//margin-top: -30px;
+				float: right;
+			}
+				.descriptionlinks a {
+					margin: auto 6px;
+				}
