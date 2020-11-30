@@ -1,1 +1,0 @@
-This is a collection of old web development projects I worked on at Champlain College from 2009-2013.
